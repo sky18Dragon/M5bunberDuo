@@ -1,0 +1,26 @@
+# Gradle & Kotlin
+.gradle/
+.kotlin/
+build/
+app/build/
+
+# Local environment / SDK paths (never commit)
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Signing keys & build outputs
+*.apk
+*.aab
+*.ap_
+*.jks
+*.keystore
+
+# OS junk
+.DS_Store
+Thumbs.db
