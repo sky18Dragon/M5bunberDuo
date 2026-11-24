@@ -12,6 +12,24 @@
   <a href="README.md">English</a> | <b>简体中文</b>
 </p>
 
+<p align="center">
+  <a href="https://github.com/sky18Dragon/M5bunberDuo/releases/latest">
+    <img src="https://img.shields.io/github/v/release/sky18Dragon/M5bunberDuo?label=%E4%B8%8B%E8%BD%BD%E6%9C%80%E6%96%B0%20APK&color=2C55DC&style=for-the-badge" alt="下载最新 APK" />
+  </a>
+</p>
+
+---
+
+## 下载与安装
+
+1. 前往 [**GitHub Releases**](https://github.com/sky18Dragon/M5bunberDuo/releases/latest) 页面，下载最新版的 `M5BurnerDuo-v*.apk`。
+2. **在 Retroid Pocket Duo 上直接安装**：用掌机自带浏览器下载后，在「文件管理」中点击 `.apk` 安装（首次安装按提示允许「安装未知应用」即可）。
+3. **或通过电脑 ADB 安装**：
+   ```bash
+   adb install -r M5BurnerDuo-v1.0.0.apk
+   ```
+4. 使用支持数据传输的 **USB-C 数据线（或 OTG 转接头）** 将 M5Stack 设备接入 Retroid Pocket Duo 的 USB-C 接口，弹窗提示 USB 权限时点击「允许」即可在线烧录、备份或开启串口监视。
+
 ---
 
 ## 项目简介

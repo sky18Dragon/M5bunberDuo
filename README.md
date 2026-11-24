@@ -13,6 +13,24 @@
   <b>English</b> | <a href="README_CN.md">简体中文</a>
 </p>
 
+<p align="center">
+  <a href="https://github.com/sky18Dragon/M5bunberDuo/releases/latest">
+    <img src="https://img.shields.io/github/v/release/sky18Dragon/M5bunberDuo?label=Download%20APK&color=2C55DC&style=for-the-badge" alt="Download Latest Release APK" />
+  </a>
+</p>
+
+---
+
+## Download & Install
+
+1. Open the [**GitHub Releases**](https://github.com/sky18Dragon/M5bunberDuo/releases/latest) page directly on your **Retroid Pocket Duo** (or on a PC) and download the latest `M5BurnerDuo-v*.apk`.
+2. **Direct install on Retroid Pocket Duo**: Tap the downloaded `.apk` in the Files app and allow installing from unknown sources if prompted.
+3. **Install via ADB (optional)**:
+   ```bash
+   adb install -r M5BurnerDuo-v1.0.0.apk
+   ```
+4. Connect any M5Stack device to the Retroid Pocket Duo's USB-C port with a data-capable USB-C cable (or OTG adapter) and grant USB permission when prompted.
+
 ---
 
 ## Overview
