@@ -14,7 +14,7 @@
 
 <p align="center">
   <a href="https://github.com/sky18Dragon/M5bunberDuo/releases/latest">
-    <img src="https://img.shields.io/github/v/release/sky18Dragon/M5bunberDuo?label=%E4%B8%8B%E8%BD%BD%E6%9C%80%E6%96%B0%20APK&color=2C55DC&style=for-the-badge" alt="下载最新 APK" />
+    <img src="docs/badge_download_cn.svg" width="248" height="44" alt="下载最新 APK" />
   </a>
 </p>
 
