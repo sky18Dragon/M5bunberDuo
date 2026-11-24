@@ -49,6 +49,10 @@ Designed around human-centered dual-screen ergonomics in a **Retro Handheld Cons
 
 All physical gamepad inputs are intercepted at `dispatchKeyEvent` so D-Pad navigation never triggers unwanted soft keyboard popups.
 
+<p align="center">
+  <img src="docs/gamepad_guide_en.svg" width="100%" alt="Retroid Pocket Duo Gamepad Controls Guide" />
+</p>
+
 | Button | Firmware Cartridges | Save-Slot Vault | CRT Serial Monitor |
 | :--- | :--- | :--- | :--- |
 | **L1 / R1** | Switch top-level mode | Switch top-level mode | Switch top-level mode |

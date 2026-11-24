@@ -48,6 +48,10 @@
 
 所有手柄按键均在 `dispatchKeyEvent` 层统一拦截，浏览固件与切换菜单时不会误触弹出虚拟键盘。
 
+<p align="center">
+  <img src="docs/gamepad_guide_cn.svg" width="100%" alt="Retroid Pocket Duo 实体手柄按键指引" />
+</p>
+
 | 实体按键 | 固件卡带 | 存档备份 | 串口示波 |
 | :--- | :--- | :--- | :--- |
 | **L1 / R1** | 切换三大核心模式 | 切换三大核心模式 | 切换三大核心模式 |

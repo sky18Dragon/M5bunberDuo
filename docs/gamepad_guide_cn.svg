@@ -1,0 +1,253 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 660" width="1120" height="660">
+  <defs>
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="125%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#2A241A" flood-opacity="0.14"/>
+    </filter>
+    <linearGradient id="hingeGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D5CEC0"/>
+      <stop offset="50%" stop-color="#ECE7DB"/>
+      <stop offset="100%" stop-color="#C2B9A7"/>
+    </linearGradient>
+    <linearGradient id="ledGlow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#E08E0B" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#E08E0B" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#E08E0B" stop-opacity="0"/>
+    </linearGradient>
+    <style>
+      .title { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif; font-weight: 800; fill: #211E28; }
+      .sub { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif; font-weight: 600; fill: #6A6374; }
+      .tag { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-weight: 800; fill: #FFFFFF; }
+      .tagDark { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-weight: 800; fill: #211E28; }
+      .lblTitle { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif; font-size: 15px; font-weight: 800; fill: #211E28; }
+      .lblSub { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Noto Sans CJK SC", "Microsoft YaHei", sans-serif; font-size: 12px; font-weight: 500; fill: #5E5869; }
+      .screenTxt { font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif; font-weight: 700; }
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; font-weight: 700; }
+    </style>
+  </defs>
+
+  <!-- Retro Beige Canvas Background -->
+  <rect x="0" y="0" width="1120" height="660" rx="24" fill="#E9E3D5"/>
+  <rect x="12" y="12" width="1096" height="636" rx="18" fill="none" stroke="#D2C9B6" stroke-width="1.5"/>
+
+  <!-- Header -->
+  <text x="560" y="48" text-anchor="middle" font-size="22" class="title">Retroid Pocket Duo · 实体手柄按键指引</text>
+  <text x="560" y="72" text-anchor="middle" font-size="13" class="sub">上屏 5.5" 观看发现平面  ·  下屏 4.5" 拇指触控操控台  ·  全程无需弹出软键盘</text>
+
+  <!-- ================= RETROID POCKET DUO CLAMSHELL ILLUSTRATION ================= -->
+  <g filter="url(#cardShadow)">
+    <!-- Shoulder Triggers L2 / L1 & R2 / R1 peeking behind top of lower shell -->
+    <rect x="336" y="344" width="62" height="20" rx="7" fill="#BDB5A4" stroke="#9F9786" stroke-width="1.2"/>
+    <rect x="344" y="352" width="54" height="16" rx="6" fill="#CFC7B7" stroke="#AFA796" stroke-width="1.2"/>
+    <rect x="722" y="344" width="62" height="20" rx="7" fill="#BDB5A4" stroke="#9F9786" stroke-width="1.2"/>
+    <rect x="722" y="352" width="54" height="16" rx="6" fill="#CFC7B7" stroke="#AFA796" stroke-width="1.2"/>
+
+    <!-- Top Clamshell Lid (5.5" 16:9) -->
+    <rect x="328" y="100" width="464" height="240" rx="22" fill="#F4EFE4" stroke="#C8C0AE" stroke-width="2"/>
+    <rect x="348" y="116" width="424" height="208" rx="12" fill="#17151F"/>
+    <!-- Top Screen UI Mini Preview -->
+    <rect x="358" y="124" width="404" height="26" rx="6" fill="#F5F1E8"/>
+    <rect x="364" y="129" width="54" height="16" rx="4" fill="#DDD6C6"/>
+    <circle cx="372" cy="135" r="2.2" fill="#2962FF"/><circle cx="378" cy="135" r="2.2" fill="#E53935"/>
+    <circle cx="372" cy="140" r="2.2" fill="#1E9E56"/><circle cx="378" cy="140" r="2.2" fill="#F4B400"/>
+    <text x="386" y="140" font-size="8.5" class="tagDark">M5 DUO</text>
+    <rect x="428" y="129" width="136" height="16" rx="4" fill="#DDD6C6"/>
+    <rect x="431" y="131" width="44" height="12" rx="3" fill="#FFFDF8"/>
+    <text x="453" y="140" text-anchor="middle" font-size="8" class="screenTxt" fill="#211E28">固件卡带</text>
+    <text x="496" y="140" text-anchor="middle" font-size="8" class="screenTxt" fill="#6A6374">存档备份</text>
+    <text x="541" y="140" text-anchor="middle" font-size="8" class="screenTxt" fill="#6A6374">串口示波</text>
+    <!-- 3 Mini Cartridge Cards on Top Screen -->
+    <rect x="358" y="156" width="404" height="158" rx="8" fill="#E9E3D5"/>
+    <rect x="368" y="168" width="120" height="134" rx="8" fill="#F6F2E9" stroke="#E08E0B" stroke-width="2.5"/>
+    <rect x="376" y="182" width="104" height="72" rx="5" fill="#E8B848"/>
+    <text x="428" y="274" text-anchor="middle" font-size="10" class="screenTxt" fill="#211E28">社区固件卡带</text>
+    <text x="428" y="290" text-anchor="middle" font-size="9" class="mono" fill="#E08E0B">5.5" 1920×1080</text>
+    <rect x="500" y="168" width="120" height="134" rx="8" fill="#F6F2E9" stroke="#D5CDBB" stroke-width="1"/>
+    <rect x="508" y="182" width="104" height="72" rx="5" fill="#1B3B28"/>
+    <text x="560" y="224" text-anchor="middle" font-size="12" class="mono" fill="#4ADE80">Launcher</text>
+    <text x="560" y="274" text-anchor="middle" font-size="10" class="screenTxt" fill="#5A5464">记忆卡存档槽</text>
+    <rect x="632" y="168" width="120" height="134" rx="8" fill="#F6F2E9" stroke="#D5CDBB" stroke-width="1"/>
+    <rect x="640" y="182" width="104" height="72" rx="5" fill="#141B16"/>
+    <text x="692" y="224" text-anchor="middle" font-size="10" class="mono" fill="#6EF2A0">CRT 串口</text>
+    <text x="692" y="274" text-anchor="middle" font-size="10" class="screenTxt" fill="#5A5464">实时故障排查</text>
+    <!-- Hinge LED Tether on Top Screen -->
+    <rect x="490" y="317" width="140" height="3" rx="1.5" fill="url(#ledGlow)"/>
+
+    <!-- Clamshell Hinge -->
+    <rect x="348" y="336" width="424" height="22" rx="11" fill="url(#hingeGrad)" stroke="#B8AF9D" stroke-width="1.2"/>
+
+    <!-- Lower Base Shell -->
+    <rect x="318" y="356" width="484" height="264" rx="26" fill="#F4EFE4" stroke="#C8C0AE" stroke-width="2"/>
+
+    <!-- Bottom 4.5" 4:3 Screen -->
+    <rect x="444" y="376" width="232" height="190" rx="12" fill="#17151F"/>
+    <rect x="451" y="383" width="218" height="176" rx="8" fill="#E9E3D5"/>
+    <rect x="515" y="385" width="90" height="2.5" rx="1.2" fill="url(#ledGlow)"/>
+    <!-- Bottom Screen Mini Deck Preview -->
+    <rect x="460" y="394" width="200" height="22" rx="6" fill="#F6F2E9"/>
+    <circle cx="471" cy="405" r="3.5" fill="#1B9A52"/>
+    <text x="480" y="408" font-size="8.5" class="screenTxt" fill="#211E28">LINK 已就绪 · USB-C</text>
+    <!-- Mini Flash Map Bar -->
+    <rect x="460" y="424" width="200" height="34" rx="7" fill="#F6F2E9"/>
+    <rect x="466" y="438" width="28" height="14" rx="3" fill="#DDD6C6"/>
+    <rect x="497" y="438" width="60" height="14" rx="3" fill="#2C55DC"/>
+    <rect x="560" y="438" width="44" height="14" rx="3" fill="#1B9A52"/>
+    <rect x="607" y="438" width="47" height="14" rx="3" fill="#1B9A52"/>
+    <text x="560" y="434" text-anchor="middle" font-size="7.5" class="screenTxt" fill="#6A6374">4.5" 1280×960 触控操控台</text>
+    <!-- Mini 3D Push Buttons -->
+    <rect x="460" y="468" width="124" height="36" rx="8" fill="#1B379B"/>
+    <rect x="460" y="466" width="124" height="34" rx="8" fill="#2C55DC"/>
+    <text x="522" y="487" text-anchor="middle" font-size="11" class="screenTxt" fill="#FFFFFF">⚡ 烧录 / 刷回</text>
+    <rect x="590" y="468" width="70" height="36" rx="8" fill="#106836"/>
+    <rect x="590" y="466" width="70" height="34" rx="8" fill="#1B9A52"/>
+    <text x="625" y="487" text-anchor="middle" font-size="10" class="screenTxt" fill="#FFFFFF">仅备数据</text>
+    <rect x="460" y="512" width="200" height="38" rx="7" fill="#141B16"/>
+    <text x="470" y="529" font-size="8.5" class="mono" fill="#6EF2A0">[CHIP] ESP32-S3 Ready</text>
+    <text x="470" y="542" font-size="8.5" class="mono" fill="#E08E0B">[115200] Serial Standby</text>
+
+    <!-- Left Controls: D-Pad, Left Stick, Select -->
+    <!-- D-Pad -->
+    <g id="dpad" transform="translate(381, 428)">
+      <rect x="-13" y="-34" width="26" height="68" rx="5" fill="#46434D" stroke="#2D2A33" stroke-width="1.5"/>
+      <rect x="-34" y="-13" width="68" height="26" rx="5" fill="#46434D" stroke="#2D2A33" stroke-width="1.5"/>
+      <rect x="-11" y="-32" width="22" height="64" rx="4" fill="#595561"/>
+      <rect x="-32" y="-11" width="64" height="22" rx="4" fill="#595561"/>
+      <circle cx="0" cy="0" r="8" fill="#46434D"/>
+    </g>
+    <!-- Left Analog Stick -->
+    <circle cx="381" cy="524" r="28" fill="#DCD5C6" stroke="#C4BCAC" stroke-width="1.5"/>
+    <circle cx="381" cy="524" r="21" fill="#3B3842" stroke="#26242C" stroke-width="1.5"/>
+    <circle cx="381" cy="524" r="14" fill="#4C4855"/>
+    <!-- Select Pill -->
+    <rect x="372" y="578" width="26" height="12" rx="6" fill="#C4BCAC" stroke="#9F9786" stroke-width="1"/>
+    <text x="385" y="604" text-anchor="middle" font-size="9" class="mono" fill="#7A7385">SELECT</text>
+
+    <!-- Right Controls: SFC Colored ABXY Diamond, Right Stick, Start -->
+    <!-- X (Top - Blue) -->
+    <circle cx="739" cy="396" r="15" fill="#1C3FA8"/>
+    <circle cx="739" cy="394" r="14" fill="#2962FF"/>
+    <text x="739" y="399" text-anchor="middle" font-size="13" class="tag">X</text>
+    <!-- Y (Left - Green) -->
+    <circle cx="707" cy="428" r="15" fill="#106636"/>
+    <circle cx="707" cy="426" r="14" fill="#1E9E56"/>
+    <text x="707" y="431" text-anchor="middle" font-size="13" class="tag">Y</text>
+    <!-- A (Right - Red) -->
+    <circle cx="771" cy="428" r="15" fill="#9E221E"/>
+    <circle cx="771" cy="426" r="14" fill="#E53935"/>
+    <text x="771" y="431" text-anchor="middle" font-size="13" class="tag">A</text>
+    <!-- B (Bottom - Yellow) -->
+    <circle cx="739" cy="460" r="15" fill="#B58200"/>
+    <circle cx="739" cy="458" r="14" fill="#F4B400"/>
+    <text x="739" y="463" text-anchor="middle" font-size="13" class="tagDark">B</text>
+
+    <!-- Right Analog Stick -->
+    <circle cx="739" cy="524" r="28" fill="#DCD5C6" stroke="#C4BCAC" stroke-width="1.5"/>
+    <circle cx="739" cy="524" r="21" fill="#3B3842" stroke="#26242C" stroke-width="1.5"/>
+    <circle cx="739" cy="524" r="14" fill="#4C4855"/>
+    <!-- Start Pill -->
+    <rect x="726" y="578" width="26" height="12" rx="6" fill="#C4BCAC" stroke="#9F9786" stroke-width="1"/>
+    <text x="739" y="604" text-anchor="middle" font-size="9" class="mono" fill="#7A7385">START</text>
+  </g>
+
+  <!-- ================= LEFT SIDE CALLOUTS ================= -->
+  <!-- L1 -->
+  <g>
+    <polyline points="354,358 310,358 296,210 278,210" fill="none" stroke="#8A8296" stroke-width="1.8" stroke-dasharray="4 3"/>
+    <circle cx="354" cy="358" r="4" fill="#2C55DC"/>
+    <rect x="34" y="178" width="244" height="64" rx="12" fill="#F6F2E9" stroke="#D2C9B6" stroke-width="1.2"/>
+    <rect x="46" y="191" width="38" height="22" rx="6" fill="#2C55DC"/>
+    <text x="65" y="206" text-anchor="middle" font-size="12" class="tag">L1</text>
+    <text x="94" y="207" class="lblTitle">向左切换主模式</text>
+    <text x="46" y="229" class="lblSub">固件卡带  ↔  存档备份  ↔  串口示波</text>
+  </g>
+
+  <!-- L2 -->
+  <g>
+    <polyline points="348,348 298,348 290,308 278,308" fill="none" stroke="#8A8296" stroke-width="1.8" stroke-dasharray="4 3"/>
+    <circle cx="348" cy="348" r="4" fill="#E08E0B"/>
+    <rect x="34" y="276" width="244" height="64" rx="12" fill="#F6F2E9" stroke="#D2C9B6" stroke-width="1.2"/>
+    <rect x="46" y="289" width="38" height="22" rx="6" fill="#E08E0B"/>
+    <text x="65" y="304" text-anchor="middle" font-size="12" class="tag">L2</text>
+    <text x="94" y="305" class="lblTitle">向左切换细分选项</text>
+    <text x="46" y="327" class="lblSub">设备分类 · 备份模式 · 串口波特率</text>
+  </g>
+
+  <!-- D-Pad -->
+  <g>
+    <polyline points="347,428 278,428" fill="none" stroke="#5A5464" stroke-width="2"/>
+    <circle cx="347" cy="428" r="4.5" fill="#211E28"/>
+    <rect x="34" y="394" width="244" height="68" rx="12" fill="#F6F2E9" stroke="#D2C9B6" stroke-width="1.2"/>
+    <rect x="46" y="407" width="52" height="22" rx="6" fill="#3B3842"/>
+    <text x="72" y="422" text-anchor="middle" font-size="11" class="tag">D-Pad</text>
+    <text x="108" y="423" class="lblTitle">十字键导航浏览</text>
+    <text x="46" y="446" class="lblSub">浏览三列固件卡带 · 选择存档槽</text>
+  </g>
+
+  <!-- Select -->
+  <g>
+    <polyline points="372,584 278,584" fill="none" stroke="#8A8296" stroke-width="1.8"/>
+    <circle cx="372" cy="584" r="4" fill="#5A5464"/>
+    <rect x="34" y="552" width="244" height="64" rx="12" fill="#F6F2E9" stroke="#D2C9B6" stroke-width="1.2"/>
+    <rect x="46" y="565" width="56" height="22" rx="6" fill="#5A5464"/>
+    <text x="74" y="580" text-anchor="middle" font-size="10.5" class="tag">SELECT</text>
+    <text x="110" y="581" class="lblTitle">底层通信日志</text>
+    <text x="46" y="603" class="lblSub">一键展开 / 收起下屏协议日志抽屉</text>
+  </g>
+
+  <!-- ================= RIGHT SIDE CALLOUTS ================= -->
+  <!-- R1 / R2 -->
+  <g>
+    <polyline points="766,350 818,350 826,182 842,182" fill="none" stroke="#8A8296" stroke-width="1.8" stroke-dasharray="4 3"/>
+    <circle cx="766" cy="350" r="4" fill="#2C55DC"/>
+    <rect x="842" y="148" width="244" height="68" rx="12" fill="#F6F2E9" stroke="#D2C9B6" stroke-width="1.2"/>
+    <rect x="854" y="161" width="32" height="22" rx="6" fill="#2C55DC"/>
+    <text x="870" y="176" text-anchor="middle" font-size="11.5" class="tag">R1</text>
+    <rect x="891" y="161" width="32" height="22" rx="6" fill="#E08E0B"/>
+    <text x="907" y="176" text-anchor="middle" font-size="11.5" class="tag">R2</text>
+    <text x="932" y="177" class="lblTitle">向右快速切换</text>
+    <text x="854" y="200" class="lblSub">R1 切主模式 · R2 切分类/备份/波特率</text>
+  </g>
+
+  <!-- X (Blue) -->
+  <g>
+    <polyline points="753,394 812,394 824,284 842,284" fill="none" stroke="#2962FF" stroke-width="2"/>
+    <circle cx="753" cy="394" r="4" fill="#2962FF"/>
+    <rect x="842" y="250" width="244" height="68" rx="12" fill="#F6F2E9" stroke="#2962FF" stroke-opacity="0.45" stroke-width="1.4"/>
+    <circle cx="868" cy="272" r="11" fill="#2962FF"/>
+    <text x="868" y="276" text-anchor="middle" font-size="12" class="tag">X</text>
+    <text x="888" y="277" class="lblTitle">次要主操作（蓝键）</text>
+    <text x="854" y="302" class="lblSub">切固件版本 · 读取备份 · 重启设备</text>
+  </g>
+
+  <!-- A (Red) -->
+  <g>
+    <polyline points="785,426 822,426 828,386 842,386" fill="none" stroke="#E53935" stroke-width="2.2"/>
+    <circle cx="785" cy="426" r="4.5" fill="#E53935"/>
+    <rect x="842" y="352" width="244" height="68" rx="12" fill="#F6F2E9" stroke="#E53935" stroke-opacity="0.55" stroke-width="1.6"/>
+    <circle cx="868" cy="374" r="11" fill="#E53935"/>
+    <text x="868" y="378" text-anchor="middle" font-size="12" class="tag">A</text>
+    <text x="888" y="379" class="lblTitle">核心确认操作（红键）</text>
+    <text x="854" y="404" class="lblSub">烧录卡带 · 刷回存档 · 开始/停监听</text>
+  </g>
+
+  <!-- Y (Green) -->
+  <g>
+    <polyline points="707,442 707,490 818,490 842,490" fill="none" stroke="#1E9E56" stroke-width="2"/>
+    <circle cx="707" cy="442" r="4" fill="#1E9E56"/>
+    <rect x="842" y="456" width="244" height="68" rx="12" fill="#F6F2E9" stroke="#1E9E56" stroke-opacity="0.45" stroke-width="1.4"/>
+    <circle cx="868" cy="478" r="11" fill="#1E9E56"/>
+    <text x="868" y="482" text-anchor="middle" font-size="12" class="tag">Y</text>
+    <text x="888" y="483" class="lblTitle">快捷辅助（绿键）</text>
+    <text x="854" y="508" class="lblSub">扫描 USB-C 设备 · 串口一键清屏</text>
+  </g>
+
+  <!-- B (Yellow) -->
+  <g>
+    <polyline points="751,466 806,466 822,584 842,584" fill="none" stroke="#C99200" stroke-width="1.8"/>
+    <circle cx="751" cy="466" r="4" fill="#F4B400"/>
+    <rect x="842" y="552" width="244" height="64" rx="12" fill="#F6F2E9" stroke="#E08E0B" stroke-opacity="0.45" stroke-width="1.4"/>
+    <circle cx="868" cy="574" r="11" fill="#F4B400"/>
+    <text x="868" y="578" text-anchor="middle" font-size="12" class="tagDark">B</text>
+    <text x="888" y="579" class="lblTitle">返回 / 关闭（黄键）</text>
+    <text x="854" y="601" class="lblSub">关闭底层日志抽屉或单屏浮层</text>
+  </g>
+</svg>
