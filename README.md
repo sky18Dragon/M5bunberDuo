@@ -19,6 +19,8 @@
   </a>
 </p>
 
+> **Built with AI**: This project was developed entirely by **Google Gemini** using **Gemini 4 Neon** (architecture, pure-Kotlin ESP32 flashing/backup protocol, dual-screen retro UI design, icon generation, on-device testing, and documentation).
+
 ---
 
 ## Download & Install
